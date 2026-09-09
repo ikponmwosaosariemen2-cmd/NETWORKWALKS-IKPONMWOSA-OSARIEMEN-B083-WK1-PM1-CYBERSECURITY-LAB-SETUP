@@ -84,3 +84,15 @@ IP: 10.0.0.3/24
 ## Conclusion
 
 The Week 1 cybersecurity lab environment was successfully configured and tested using VirtualBox and Kali Linux.
+
+
+
+
+Architecture Components
+Host Machine: Windows PC
+Virtualization Platform: VirtualBox
+Attacking Machine: Kali Linux
+Network Type: NAT Network
+Network Subnet: 10.0.0.0/24
+Kali Linux IP Address: 10.0.0.3/24
+Internet Access: Enabled
