@@ -64,6 +64,23 @@ I downloaded and installed the required Microsoft Visual C++ x64 Redistributable
 
 This project gave me practical experience setting up a cybersecurity testing environment. I learned how to use VirtualBox, configure a NAT Network, configure Kali Linux networking, enable VM integration features, and troubleshoot installation and connectivity issues.
 
+## Lab Network Architecture
+
+The cybersecurity lab was set up using VirtualBox with Kali Linux as the virtual machine. The lab uses a NAT Network to provide network connectivity and Internet access.
+
+```text
+Internet
+   |
+   v
+VirtualBox NAT Network
+10.0.0.0/24
+   |
+   v
+Kali Linux
+IP: 10.0.0.3/24
+
+
+
 ## Conclusion
 
 The Week 1 cybersecurity lab environment was successfully configured and tested using VirtualBox and Kali Linux.
